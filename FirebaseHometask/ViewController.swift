@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     private let emailTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "Write your email..."
-        textField.heightAnchor.constraint(equalToConstant: 48).isActive = true
+        textField.heightAnchor.constraint(equalToConstant: 28).isActive = true
         return textField
     }()
     
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("register", for: .normal)
-        button.heightAnchor.constraint(equalToConstant: 48).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 28).isActive = true
         button.backgroundColor = .systemRed
         return button
     }()
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("login", for: .normal)
         button.backgroundColor = .systemBlue
-        button.heightAnchor.constraint(equalToConstant: 48).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 28).isActive = true
         button.setTitleColor(.white, for: .normal)
         return button
     }()
