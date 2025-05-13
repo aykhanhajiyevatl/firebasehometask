@@ -6,7 +6,7 @@
 //
 
 class TelmanManager {
-    func slang() {
+    func properlyChangedFunctionName() {
         
     }
 }
