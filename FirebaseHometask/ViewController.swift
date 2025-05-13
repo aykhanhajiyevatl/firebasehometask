@@ -22,14 +22,14 @@ class ViewController: UIViewController {
     
     private let emailTextField: UITextField = {
         let textField = UITextField()
-        textField.placeholder = "Write your email"
+        textField.placeholder = "Write your email..."
         textField.heightAnchor.constraint(equalToConstant: 48).isActive = true
         return textField
     }()
     
     private let passwordTextField: UITextField = {
         let textField = UITextField()
-        textField.placeholder = "Write your password"
+        textField.placeholder = "Write your password..."
 //        textField.isSecureTextEntry = true
         return textField
     }()
